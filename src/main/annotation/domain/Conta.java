@@ -11,6 +11,7 @@ public class Conta {
 
     String nome;
 
+    // anotando o campo e passando um valor para a anotação
     @maxValue(value = 3000)
     int saldo;
 }
